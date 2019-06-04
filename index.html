@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome and Google Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+  <!-- Bootstrap Scripts  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="header">
+    <video autoplay muted loop class="video">
+      <source src="images/background.mp4" type="video/mp4">
+    </video>
+
+    <div class="header-icons">
+    <a href="mailto: gclluch@gmail.com" class="social-icon fas fa-envelope"></a>
+    <a href="https://www.linkedin.com/in/gabriel-lluch/" class="social-icon fab fa-linkedin-in "></a>
+    <a href="https://github.com/gclluch" class="social-icon fab fa-github"></a>
+    <a download href="files/GabrielLluch_Resume.pdf" class="social-icon fas fa-file-pdf"></a>
+    </div>
+
+    <div class="header-centered typewriter">
+      <h1 class="intro-text">Hi, I'm Gabriel </h1>
+    </div>
+
+    <div class="header-bottom">
+      <a href="#content" class="nav-arrow fas fa-angle-down"></a>
+    </div>
+  </div>
+
+
+  <div class="content" id="content">
+    <img src="images/background.jpg" class="background-image">
+
+    <div class="bio">
+      <img class="profile-img" src="images/boss.png" alt="">
+      <p> <b>About Me:</b> I'm a recent graduate from McGill University with a
+        degree in Computer Science looking to apply my interests in machine
+        learning and web development. I began studying data science during my
+        time at McGill, and fell in love with its perfect storm of mathematics,
+        statistics, and algorithmic methods. I love all things deep learning and
+        am particularly taken with NLP. Currently, I'm learning full-stack web
+        development with the intent of designing ML-based applications.
+      </p>
+    </div>
+
+    <div class="wrapper">
+        <div class="box">
+          <a href="https://gclluch.github.io/TicTacToe">
+          <img src="images/tic-tac-toe-game.png" width="50" height="50" class="proj-image">
+          <h2>Tic Tac Toe</h2>
+          <p>Unbeatable Tic Tac Toe engine powered by minimax. Written in vanilla JS</p>
+          </a>
+        </div>
+      <a href="#"></a>
+      <div class="box">
+        <a href="https://basic-to-do-list.herokuapp.com/">
+        <img src="http://i.imgur.com/60PVLis.png" width="50" height="50" class="proj-image">
+        <h2>To-Do List</h2>
+        <p>Simple To-Do list. Uses MongoDB and supports dynamic rendering of lists</p>
+        </a>
+      </div>
+      <div class="box">
+        <a href="https://minimal-daily-journal.herokuapp.com/">
+        <img src="images/blogging.png" width="50" height="50" class="proj-image">
+        <h2>Daily Blog</h2>
+        <p>Minimal Daily Blog site using MongoDB and EJS. Login support coming</p>
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
