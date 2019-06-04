@@ -130,7 +130,7 @@ video {
 
 .topic-header {
   margin-bottom: 2%;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .row {
