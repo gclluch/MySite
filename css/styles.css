@@ -138,10 +138,12 @@ video {
 
 .row {
   padding-bottom: 3%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .box {
-  width: 25%;
+  width: 20%;
   margin: auto;
   text-align: center;
 }
